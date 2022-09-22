@@ -33,22 +33,22 @@
     animation: c3load 1.5s linear;
 }
 .c1 .img{
-    background-image: url("/img/blog1.jpg");
+    background-image: url("../img/blog1.jpg");
 }
 .c1 .img:hover{
-    background-image: url("/img/blog2.jpg");
+    background-image: url("../img/blog2.jpg");
 }
 .c2 .img{
-    background-image: url("/img/blog3.jpg");
+    background-image: url("../img/blog3.jpg");
 }
 .c2 .img:hover{
-    background-image: url("/img/blog4.jpg");
+    background-image: url("../img/blog4.jpg");
 }
 .c3 .img{
-    background-image: url("/img/blog5.jpg");
+    background-image: url("../img/blog5.jpg");
 }
 .c3 .img:hover{
-    background-image: url("/img/blog6.jpg");
+    background-image: url("../img/blog6.jpg");
 }
 .imghid{
     overflow: hidden;
@@ -105,7 +105,7 @@
     width: 90px;
     height: 90px;
     border-radius: 50%;
-    background-image: url("/img/head2.jpg");
+    background-image: url("../img/head2.jpg");
     background-size: cover;
     transition: 0.5s ease 0s;
 }

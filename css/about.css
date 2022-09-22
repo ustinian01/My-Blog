@@ -38,13 +38,13 @@
     margin-top: 40px;
 }
 .a1 .img{
-    background-image: url("/img/aboutpic1.jpg");
+    background-image: url("../img/aboutpic1.jpg");
 }
 .a2 .img{
-    background-image: url("/img/aboutpic2.jpg");
+    background-image: url("../img/aboutpic2.jpg");
 }
 .a3 .img{
-    background-image: url("/img/aboutpic3.jpg");
+    background-image: url("../img/aboutpic3.jpg");
 }
 
 .ab p{

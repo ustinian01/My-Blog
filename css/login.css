@@ -13,7 +13,7 @@ body{
     align-items: center;
     width: 100%;
     height: 100%;
-    background-image: url("/img/loginback.jpg");
+    background-image: url("../img/loginback.jpg");
     background-repeat: no-repeat;
     /*背景图片不会随着页面的滚动而滚动。 */
     background-attachment: fixed;

@@ -1,6 +1,6 @@
 @charset "UTF-8";
 .titleImg{
-    background-image: url("/img/head.jpg");
+    background-image: url("../img/head.jpg");
     height: 100vh;
     background-repeat: no-repeat;
     background-size: 1540px;
@@ -49,13 +49,13 @@
     overflow: hidden;
 }
 .part1 .img{
-    background-image: url("/img/homepic1.jpg");
+    background-image: url("../img/homepic1.jpg");
 }
 .part2 .img{
-    background-image: url("/img/homepic2.jpg");
+    background-image: url("../img/homepic2.jpg");
 }
 .part3 .img{
-    background-image: url("/img/homepic3.jpg");
+    background-image: url("../img/homepic3.jpg");
 }
 .pt .img{
     height: 190px;
