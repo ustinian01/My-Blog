@@ -1,6 +1,6 @@
 @charset "utf-8";
 .mid{
-    height: 180vh;
+    height: 150vh;
     width: 100vw;
     display: flex;
     flex-direction: column;
@@ -9,21 +9,28 @@
 .headimg{
     top: 0px;
     height: 250px;
-    width: 100%;
+    width: 100vw;
     background-image: url("../img/headimg2.jpg");
-    background-size: 1540px;
+    background-size: cover;
     background-repeat: no-repeat;
-    background-position-y: -190px;
-    background-position-x: -150px;
     overflow: hidden;
     border-bottom: 5px solid rgb(58, 83, 85);
     animation: headload 0.9s linear;
 }
 .headimg h1{
-    color: rgb(92, 136, 177);
+    -webkit-background-clip: text;
+    background-image: linear-gradient(90deg,rgba(98, 201, 248,0.6),rgba(243, 111, 255, 0.6),rgba(247, 129, 129, 0.6),rgba(241, 239, 104, 0.6),rgba(117, 226, 84, 0.6),rgba(98, 201, 248,0.6));
+    background-size: 800%;
+    animation: gradient 30s infinite linear;
+    color: transparent;
     font-size: 5em;
     text-align: center;
     line-height: 200px;
+}
+@keyframes gradient {
+    100%{
+        background-position: -800% 0%;
+    }
 }
 
 .mid .ab{

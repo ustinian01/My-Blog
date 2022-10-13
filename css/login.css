@@ -13,6 +13,7 @@ body{
     align-items: center;
     width: 100%;
     height: 100%;
+    background-size: cover;
     background-image: url("../img/loginback.jpg");
     background-repeat: no-repeat;
     /*背景图片不会随着页面的滚动而滚动。 */
@@ -35,8 +36,8 @@ body{
     display: flex;
     flex-direction: column;
     align-items: center;
-    min-width: 500px;
-    min-height: 300px;
+    min-width: 550px;
+    min-height: 400px;
     background-color: rgb(20,59,88,0.7);
     overflow: hidden;
     border-bottom: 10px;
@@ -44,7 +45,7 @@ body{
     backdrop-filter: blur(5px);
 }
 .logTitle{
-    font-size: 40px;
+    font-size: 60px;
     font-weight: bolder;
     -webkit-background-clip: text;
     /*
@@ -58,14 +59,15 @@ body{
 }
 .logBody .txt{
     border: none;
-    border-bottom: 1px solid rgba(18,21,32,0.7);
+    border-bottom: 2px solid rgba(18,21,32,0.7);
     background: transparent;
     transition: 0.3s;
-    height: 30px;
+    height: 40px;
     padding-top: 10px;
+    font-size: 20px;
 }
 .logBody .txt:hover{
-    transform: scaleX(1.1);
+    transform: scaleX(1.2);
 }
 .logBody .txt:focus{
     outline: none;
@@ -74,6 +76,7 @@ body{
 }
 .logBody .sub{
     width: 80%;
+    font-size: 15px;
     height: 45px;
     margin-top: 10%;
     margin-left: 10%;
@@ -92,6 +95,7 @@ body{
     margin-top: 20px;
     border: none;
     background-color: transparent;
+    font-size: 15px;
 }
 .ykbt:hover{
     color: rgb(64,160,216);

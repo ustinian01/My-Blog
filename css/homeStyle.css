@@ -3,16 +3,17 @@
     background-image: url("../img/head.jpg");
     height: 100vh;
     background-repeat: no-repeat;
-    background-size: 1540px;
+    background-size: cover;
     background-attachment: fixed;
     width: 100vw;
     transition: 0.5s ease 0s;
     animation: load 0.5s;
 }
 .titleImg .title{
-    width: 1540px;
+    width: 100vw;
     padding: 200px;
     font-size: 100px;
+    text-align: center;
     font-weight: bolder;
     color: rgba(49,70,87,0.9);
 }
@@ -33,11 +34,13 @@
     height: 500px;
     width: 250px;
     float: left;
-    margin: 150px 0px 0px 135px;
+    margin: 250px 0 0 170px;
     background: rgba(219,235,241,0.8);
     box-shadow: 0 0 15px rgb(59,73,95);
     border-radius: 15px;
     overflow: hidden;
+    justify-content: center;
+    align-items: center;
     scroll-snap-align: start;
     transition:all 0.5s ease 0s;
 }
@@ -56,6 +59,9 @@
 }
 .part3 .img{
     background-image: url("../img/homepic3.jpg");
+}
+.part4 .img{
+    background-image: url("../img/homepic4.jpg");
 }
 .pt .img{
     height: 190px;
@@ -78,12 +84,13 @@
 }
 .pt .txt h1{
     text-align: center;
-    font-size: 18px;
+    font-size: 25px;
     color:rgb(28,44,68);
     height: 30px;
     line-height: 30px;
 }
 .pt .txt p{
+    font-size: 20px;
     margin-top:-2px;
     word-wrap: break-word;
     color: rgb(114,182,202);
