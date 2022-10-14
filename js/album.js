@@ -37,7 +37,7 @@ window.onload=function (){
         }
         var bottomdot=document.createElement("div");
         bottomdot.style.left=100*(i+2)+"px";
-        bottomdot.name=i;
+        bottomdot.name=i+1;
         dots.push(bottomdot);
         banner.appendChild(bottomdot);
         if(i>3){
